@@ -52,5 +52,34 @@ namespace PMach
         /// <returns></returns>
         static private double Distance(Vector2 vector1, Vector2 vector2)
             => Math.Sqrt( Math.Pow(vector1.X - vector2.X, 2) + Math.Pow(vector1.Y + vector2.Y, 2));
+
+        /// <summary>
+        /// Проверку на то является ли треугольник прямоугольным.
+        /// </summary>
+        /// <param name="lengthA"></param>
+        /// <param name="lengthB"></param>
+        /// <param name="lengthC"></param>
+        /// <returns></returns>
+        static public bool TriangleRectangular(double lengthA, double lengthB, double lengthC)
+        {
+            double[] lTriangle = [lengthA, lengthB, lengthC];
+            double max = 0, x = 0;
+            int i = 0, ignore = -1;
+            for (i = 0; i < lTriangle.Length;i++ )
+            {
+                if (lTriangle[i] > max) 
+                { 
+                    max = lTriangle[i];
+                    ignore = i;
+                }
+            }
+            max = Math.Pow(max, 2);
+            for (i = 0;i < lTriangle.Length;i++)
+            {
+                if (ignore == i) { continue; }
+                x += Math.Pow(lTriangle[i], 2);
+            }
+            return x == max;
+        }
     }
 }
