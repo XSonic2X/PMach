@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMach", "PMach\PMach.csproj", "{D9486194-34B5-46B0-B75D-4CD489D0B8BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectMath", "TestProjectMath\TestProjectMath.csproj", "{916A30FA-2F7B-4038-B03B-67371D6490C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9486194-34B5-46B0-B75D-4CD489D0B8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9486194-34B5-46B0-B75D-4CD489D0B8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9486194-34B5-46B0-B75D-4CD489D0B8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9486194-34B5-46B0-B75D-4CD489D0B8BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916A30FA-2F7B-4038-B03B-67371D6490C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916A30FA-2F7B-4038-B03B-67371D6490C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916A30FA-2F7B-4038-B03B-67371D6490C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916A30FA-2F7B-4038-B03B-67371D6490C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8654D685-6C63-483B-8DB4-31A4832EB27D}
+	EndGlobalSection
+EndGlobal
